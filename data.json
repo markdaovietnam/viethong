@@ -1,0 +1,506 @@
+[
+  {
+    "name": "Aromas",
+    "id": "aromas",
+    "fill": "#cbbba0"
+  },
+  {
+    "name": "Enzymatic",
+    "parent": "aromas",
+    "id": "enzymatic",
+    "fill": "#f38967"
+  },
+  {
+    "name": "Sugar Browning",
+    "parent": "aromas",
+    "id": "sugar-browning",
+    "fill": "#795841"
+  },
+  {
+    "name": "Dry Distillation",
+    "parent": "aromas",
+    "id": "dry-distillation",
+    "fill": "#357ca5"
+  },
+  {
+    "name": "Flowery",
+    "parent": "enzymatic",
+    "id": "flowery",
+    "fill": "#edcf37"
+  },
+  {
+    "name": "Fruity",
+    "parent": "enzymatic",
+    "id": "fruity",
+    "fill": "#da943b"
+  },
+  {
+    "name": "Herby",
+    "parent": "enzymatic",
+    "id": "herby",
+    "fill": "#9ba776"
+  },
+  {
+    "name": "Floral",
+    "parent": "flowery",
+    "id": "floral"
+  },
+  {
+    "name": "Fragrant",
+    "parent": "flowery",
+    "id": "fragrant"
+  },
+  {
+    "name": "Coffee Blossom",
+    "parent": "floral",
+    "id": "coffee-blossom"
+  },
+  {
+    "name": "Tea Rose",
+    "parent": "floral",
+    "id": "tea-rose"
+  },
+  {
+    "name": "Cardamon Caraway",
+    "parent": "fragrant",
+    "id": "cardamon-caraway"
+  },
+  {
+    "name": "Coriander Seeds",
+    "parent": "fragrant",
+    "id": "coriander-seeds"
+  },
+  {
+    "name": "Citrus",
+    "parent": "fruity",
+    "id": "citrus"
+  },
+  {
+    "name": "Berry-like",
+    "parent": "fruity",
+    "id": "berry-like"
+  },
+  {
+    "name": "Lemon",
+    "parent": "citrus",
+    "id": "lemon"
+  },
+  {
+    "name": "Apple",
+    "parent": "citrus",
+    "id": "apple"
+  },
+  {
+    "name": "Apricot",
+    "parent": "berry-like",
+    "id": "apricot"
+  },
+  {
+    "name": "Blackberry",
+    "parent": "berry-like",
+    "id": "blackberry"
+  },
+  {
+    "name": "Alliaceous",
+    "parent": "herby",
+    "id": "alliaceous"
+  },
+  {
+    "name": "Leguminous",
+    "parent": "herby",
+    "id": "leguminous"
+  },
+  {
+    "name": "Onion",
+    "parent": "alliaceous",
+    "id": "onion"
+  },
+  {
+    "name": "Garlic",
+    "parent": "alliaceous",
+    "id": "garlic"
+  },
+  {
+    "name": "Cucumber",
+    "parent": "leguminous",
+    "id": "cucumber"
+  },
+  {
+    "name": "Garden Peas",
+    "parent": "leguminous",
+    "id": "garden-peas"
+  },
+  {
+    "name": "Nutty",
+    "parent": "sugar-browning",
+    "id": "nutty",
+    "fill": "#8b5d2d"
+  },
+  {
+    "name": "Carmelly",
+    "parent": "sugar-browning",
+    "id": "carmelly",
+    "fill": "#d08631"
+  },
+  {
+    "name": "Chocolatey",
+    "parent": "sugar-browning",
+    "id": "chocolatey",
+    "fill": "#7f4636"
+  },
+  {
+    "name": "Nut-like",
+    "parent": "nutty",
+    "id": "nut-like"
+  },
+  {
+    "name": "Malt-like",
+    "parent": "nutty",
+    "id": "malt-like"
+  },
+  {
+    "name": "Roasted Peanuts",
+    "parent": "nut-like",
+    "id": "roasted-peanuts"
+  },
+  {
+    "name": "Walnuts",
+    "parent": "nut-like",
+    "id": "walnuts"
+  },
+  {
+    "name": "Balsamic Rice",
+    "parent": "malt-like",
+    "id": "balsamic-rice"
+  },
+  {
+    "name": "Toast",
+    "parent": "malt-like",
+    "id": "toast"
+  },
+  {
+    "name": "Candy-like",
+    "parent": "carmelly",
+    "id": "candy-like"
+  },
+  {
+    "name": "Syrup-like",
+    "parent": "carmelly",
+    "id": "syrup-like"
+  },
+  {
+    "name": "Roasted Hazelnut",
+    "parent": "candy-like",
+    "id": "roasted-hazelnut"
+  },
+  {
+    "name": "Roasted Almond",
+    "parent": "candy-like",
+    "id": "roasted-almond"
+  },
+  {
+    "name": "Honey",
+    "parent": "syrup-like",
+    "id": "honey"
+  },
+  {
+    "name": "Maple Syrup",
+    "parent": "syrup-like",
+    "id": "maple-syrup"
+  },
+  {
+    "name": "Chocolate-like",
+    "parent": "chocolatey",
+    "id": "chocolate-like"
+  },
+  {
+    "name": "Vanilla-like",
+    "parent": "chocolatey",
+    "id": "vanilla-like"
+  },
+  {
+    "name": "Bakers",
+    "parent": "chocolate-like",
+    "id": "bakers"
+  },
+  {
+    "name": "Dark Chocolate",
+    "parent": "chocolate-like",
+    "id": "dark-chocolate"
+  },
+  {
+    "name": "Swiss",
+    "parent": "vanilla-like",
+    "id": "swiss"
+  },
+  {
+    "name": "Butter",
+    "parent": "vanilla-like",
+    "id": "butter"
+  },
+  {
+    "name": "Resinous",
+    "parent": "dry-distillation",
+    "id": "resinous",
+    "fill": "#5e4e7b"
+  },
+  {
+    "name": "Spicy",
+    "parent": "dry-distillation",
+    "id": "spicy",
+    "fill": "#8d3974"
+  },
+  {
+    "name": "Carbony",
+    "parent": "dry-distillation",
+    "id": "carbony",
+    "fill": "#602268"
+  },
+  {
+    "name": "Turpeny",
+    "parent": "resinous",
+    "id": "turpeny"
+  },
+  {
+    "name": "Medicinal",
+    "parent": "resinous",
+    "id": "medicinal"
+  },
+  {
+    "name": "Piney",
+    "parent": "turpeny",
+    "id": "piney"
+  },
+  {
+    "name": "Blackcurrant-like",
+    "parent": "turpeny",
+    "id": "blackcurrant-like"
+  },
+  {
+    "name": "Camphoric",
+    "parent": "medicinal",
+    "id": "camphoric"
+  },
+  {
+    "name": "Cineolic",
+    "parent": "medicinal",
+    "id": "cineolic"
+  },
+  {
+    "name": "Warming",
+    "parent": "spicy",
+    "id": "warming"
+  },
+  {
+    "name": "Pungent",
+    "parent": "spicy",
+    "id": "aromas-pungent"
+  },
+  {
+    "name": "Cedar",
+    "parent": "warming",
+    "id": "cedar"
+  },
+  {
+    "name": "Pepper",
+    "parent": "warming",
+    "id": "pepper"
+  },
+  {
+    "name": "Clove",
+    "parent": "aromas-pungent",
+    "id": "clove"
+  },
+  {
+    "name": "Thyme",
+    "parent": "aromas-pungent",
+    "id": "thyme"
+  },
+  {
+    "name": "Smokey",
+    "parent": "carbony",
+    "id": "smokey"
+  },
+  {
+    "name": "Ashy",
+    "parent": "carbony",
+    "id": "ashy"
+  },
+  {
+    "name": "Tarry",
+    "parent": "smokey",
+    "id": "tarry"
+  },
+  {
+    "name": "Pipe Tobacco",
+    "parent": "smokey",
+    "id": "pipe-tobacco"
+  },
+  {
+    "name": "Burnt",
+    "parent": "ashy",
+    "id": "burnt"
+  },
+  {
+    "name": "Charred",
+    "parent": "ashy",
+    "id": "charred"
+  },
+  {
+    "name": "Tastes",
+    "id": "tastes",
+    "fill": "#634e42"
+  },
+  {
+    "name": "Bitter",
+    "parent": "tastes",
+    "id": "bitter",
+    "fill": "#575756"
+  },
+  {
+    "name": "Salt",
+    "parent": "tastes",
+    "id": "salt",
+    "fill": "#a30d1c"
+  },
+  {
+    "name": "Sweet",
+    "parent": "tastes",
+    "id": "sweet",
+    "fill": "#6f1547"
+  },
+  {
+    "name": "Sour",
+    "parent": "tastes",
+    "id": "sour",
+    "fill": "#00814e"
+  },
+  {
+    "name": "Pungent",
+    "parent": "bitter",
+    "id": "tastes-pungent",
+    "fill": "#9c81a8"
+  },
+  {
+    "name": "Harsh",
+    "parent": "bitter",
+    "id": "harsh",
+    "fill": "#e85381"
+  },
+  {
+    "name": "Creosol",
+    "parent": "tastes-pungent",
+    "id": "creosol"
+  },
+  {
+    "name": "Phenolic",
+    "parent": "tastes-pungent",
+    "id": "phenolic"
+  },
+  {
+    "name": "Caustic",
+    "parent": "harsh",
+    "id": "caustic"
+  },
+  {
+    "name": "Alkaline",
+    "parent": "harsh",
+    "id": "alkaline"
+  },
+  {
+    "name": "Sharp",
+    "parent": "salt",
+    "id": "sharp",
+    "fill": "#db7773"
+  },
+  {
+    "name": "Bland",
+    "parent": "salt",
+    "id": "bland",
+    "fill": "#f2a569"
+  },
+  {
+    "name": "Astringent",
+    "parent": "sharp",
+    "id": "astringent"
+  },
+  {
+    "name": "Rough",
+    "parent": "sharp",
+    "id": "rough"
+  },
+  {
+    "name": "Neutral",
+    "parent": "bland",
+    "id": "neutral"
+  },
+  {
+    "name": "Soft",
+    "parent": "bland",
+    "id": "soft"
+  },
+  {
+    "name": "Mellow",
+    "parent": "sweet",
+    "id": "mellow",
+    "fill": "#f1bf71"
+  },
+  {
+    "name": "Acidy",
+    "parent": "sweet",
+    "id": "acidy",
+    "fill": "#edd529"
+  },
+  {
+    "name": "Delicate",
+    "parent": "mellow",
+    "id": "delicate"
+  },
+  {
+    "name": "Mild",
+    "parent": "mellow",
+    "id": "mild"
+  },
+  {
+    "name": "Nippy",
+    "parent": "acidy",
+    "id": "nippy"
+  },
+  {
+    "name": "Piquant",
+    "parent": "acidy",
+    "id": "piquant"
+  },
+  {
+    "name": "Winey",
+    "parent": "sour",
+    "id": "winey",
+    "fill": "#c8cd80"
+  },
+  {
+    "name": "Soury",
+    "parent": "sour",
+    "id": "soury",
+    "fill": "#e5dc65"
+  },
+  {
+    "name": "Tangy",
+    "parent": "winey",
+    "id": "tangy"
+  },
+  {
+    "name": "Tart",
+    "parent": "winey",
+    "id": "tart"
+  },
+  {
+    "name": "Hard",
+    "parent": "soury",
+    "id": "hard"
+  },
+  {
+    "name": "Acrid",
+    "parent": "soury",
+    "id": "acrid"
+  }
+]

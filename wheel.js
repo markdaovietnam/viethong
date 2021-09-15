@@ -258,7 +258,7 @@ Chart.register({
         }
       },
       {
-        pieLabel: ["Try me"],
+        pieLabel: ["Khám phá"],
         backgroundColor: ['#ffffff'],
         data: [100],
         datalabels: {

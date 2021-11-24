@@ -1204,7 +1204,7 @@
             break;
           case "Bạc hà":
             window.open(
-              "/chuyen-muc-huong/nhua-thom-balsam"
+              "/chuyen-muc-huong/bac-ha-mint"
             );
             break;
           case "Balsam":

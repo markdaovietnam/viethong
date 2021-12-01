@@ -296,7 +296,7 @@
             pieLabel: [
               "Chanh",
               "Cam",
-              "Bưởi",
+              "Bửoi",
               "Anh Đào",
               "Chanh dây",
               "Chuối",
@@ -512,7 +512,7 @@
               "Bơ",
               "Chanh",
               "Cam",
-              "Bưởi",
+              "Bửoi",
               "Anh Đào",
               "Giấm\nbalsamic",
               "Balsam",
@@ -688,7 +688,7 @@
               "Bơ",
               "Chanh",
               "Cam",
-              "Bưởi",
+              "Bửoi",
               "Anh Đào",
               "Giấm\nbalsamic",
               "Balsam",
@@ -1096,7 +1096,7 @@
               "/chuyen-muc-huong/cam-orange"
             );
             break;
-          case "Bưởi":
+          case "Bửoi":
             window.open(
               "/chuyen-muc-huong/buoi-grapefruit"
             );
